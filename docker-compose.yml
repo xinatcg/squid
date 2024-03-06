@@ -6,8 +6,8 @@ services:
     environment:
       - SQUID_CONFIG_FILE=/etc/squid/squid.conf
     ports:
-      - "172.17.0.1:28028:3128"
+      - "28028:3128"
     volumes:
-      - "./conf/squid.conf:/etc/squid/squid.conf:ro"
-      - "./conf/passwords:/etc/squid/passwords:ro"
+      - ./conf/squid.conf:/etc/squid/squid.conf:ro
+      - ./conf/passwords:/etc/squid/passwords:ro
     restart: always

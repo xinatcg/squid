@@ -4,6 +4,8 @@
 
 Example CI/CD pipeline showing how to deploy a Squid Proxy instance to elestio.
 
+https://hub.docker.com/r/elestio/squid
+
 # Once deployed ...
 
 Proxy details:
